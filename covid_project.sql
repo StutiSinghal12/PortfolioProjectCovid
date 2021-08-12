@@ -1,5 +1,5 @@
---select * from covid_deaths$
---select * from covid_vaccinations$
+select * from covid_deaths$
+select * from covid_vaccinations$
 
 --likelihood of dying if infected in a country 
 select location,date,total_cases,total_deaths,(total_deaths/total_cases)*100 as 
